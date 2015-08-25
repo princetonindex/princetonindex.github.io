@@ -65,6 +65,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-dark-gray {
+    background-color: #757575;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -289,7 +293,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
@@ -312,7 +316,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         text-transform: uppercase;
         font-family: 'MonticelloLT-Roman',"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 45px;
@@ -500,6 +504,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    color: white;
 }
 
 footer span.copyright {
