@@ -13,6 +13,33 @@ color:
   secondary: fec503
   secondary-dark: 333
 
+# Team names, titles and social links
+people:
+- name: "Prin Ceton, '02"
+  pic: default-headshot
+  # position: Lead Designer
+  social:
+    - title: twitter
+      url: http://www.twitter.com/foobar
+    - title: linkedin
+      url: http://www.linkedin/foobar
+
+- name: "Prin Ceton, '02"
+  pic: default-headshot
+  # position: Lead Marketer
+  social:
+    - title: twitter
+      url: http://www.twitter.com/foobar
+    - title: linkedin
+      url: http://www.linkedin/foobar
+
+- name: "Prin Ceton, '02"
+  pic: default-headshot
+  # position: Lead Developer
+  social:
+    - title: linkedin
+      url: http://www.linkedin/foobar
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter

@@ -1,31 +1,29 @@
-<!-- Member Grid Section -->
-    <section class="image-grid bg-light-gray">
+<!-- Members Section -->
+    <section id="members" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Members</h2>
-                    <!-- <h3 class="section-subheading text-muted"></h3> -->
+                    <h3 class="section-subheading text-muted">Princeton Index Members.</h3>
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
-                {% if post.category == 'Members' %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                {% for member in site.people %}
+                <div class="col-sm-4">
+                    <div class="members-member">
+                        <img src="img/members/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <br />
+                        <!-- <p class="text-muted">{{ member.position }}</p> -->
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
+                            {% endfor %}
+
+                        </ul>
                     </div>
                 </div>
-                {% endif %}
-            {% endfor %}
+                {% endfor %}
             </div>
         </div>
     </section>

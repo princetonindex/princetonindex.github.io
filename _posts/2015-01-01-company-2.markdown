@@ -1,0 +1,10 @@
+---
+title: Prin Ceton, '02
+layout: default
+company-url: http://www.foroenergy.com
+founder-url: https://www.linkedin.com/in/joelmoxley
+thumbnail: default-logo.jpg
+alt: image-alt
+category: Portfolio
+
+---
