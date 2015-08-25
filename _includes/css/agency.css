@@ -183,6 +183,10 @@ fieldset[disabled] .btn-xl.active {
     font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
 }
+.navbar-default .navbar-subbrand {
+    font-family: "MonticelloLT-Italic","Helvetica Neue",Helvetica,Arial,cursive;
+    color: white;
+}
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -234,6 +238,9 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
+.navbar-default .navbar-brand img {
+    width: 50px;
+}
 
 @media(min-width:768px) {
     .navbar-default {
@@ -251,6 +258,12 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: all .3s;
         transition: all .3s;
     }
+    .navbar-default .navbar-brand img {
+        width: 150px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
@@ -263,6 +276,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img {
+        width: 50px;
     }
 }
 
@@ -286,7 +303,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "MonticelloLT-Italic","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -294,7 +311,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 10px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -309,7 +326,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "MonticelloLT-Italic","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -317,7 +334,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 20px;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         font-family: 'MonticelloLT-Roman',"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 45px;
         font-weight: 700;

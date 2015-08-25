@@ -2,7 +2,8 @@ url: http://www.princetonindex.co
 baseurl:
 
 # Site settings
-title: Princeton Index
+title: Princeton
+subtitle: Index
 email: info@princetonindex.co
 description: "Princeton Index."
 copyright_year: 2015
