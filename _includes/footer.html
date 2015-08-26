@@ -1,20 +1,7 @@
   <footer class="bg-dark-gray">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">
-                        Copyright &copy;
-                        {{ site.title }} {{ site.subtitle }}
-                        {{ site.copyright_year }}
-                    </span>
-                    <br />
-                    <span class="credits">
-                        <a href="http://www.shutterstock.com/" target="_blank">Stock Photo: Shutterstock</a>
-                        &bull;
-                        <a href="https://github.com/y7kim/agency-jekyll-theme" target="_blank">Theme: y7kim</a>
-                    </span>
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mobile-padding">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
@@ -26,19 +13,24 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    Independent but produced in cooperation with the
+                <div class="col-md-4 mobile-padding">
+                    <span class="copyright">
+                        Copyright &copy;
+                        Princeton Index
+                        {{ site.copyright_year }}
+                    </span>
+                    <br />
+                    <span class="credits">
+                        <a href="http://www.shutterstock.com/" target="_blank">Stock Photo: Shutterstock</a>
+
+                        <a href="https://github.com/y7kim/agency-jekyll-theme" target="_blank" style="display:none;">Theme: y7kim</a>
+                    </span>
+                </div>
+                <div class="col-md-4 mobile-padding">
+                    Independent but coordinated with the<br />
                     <a href="http://www.princeton.edu/entrepreneurship/" target="_blank">
                         Princeton entrepreneurship initiative
                     </a>
-                    <ul class="list-inline quicklinks">
-                        <!-- <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li> -->
-                        <li>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
