@@ -1,6 +1,7 @@
 ---
-title: Prin Ceton, '02
+title: Princeton Founder '02
 layout: default
+company-name: Foro Energy
 company-url: http://www.foroenergy.com
 founder-url: https://www.linkedin.com/in/joelmoxley
 thumbnail: default-logo.jpg

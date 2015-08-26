@@ -2,10 +2,10 @@ url: http://www.princetonindex.co
 baseurl:
 
 # Site settings
-title: Princeton
+title: PRINCETON
 subtitle: index
-email: info@princetonindex.co
-description: "Princeton Index."
+email: princetonindex@gmail.com
+description: "PRINCETON Index"
 copyright_year: 2015
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -16,7 +16,7 @@ color:
 
 # Team names, titles and social links
 people:
-- name: "Prin Ceton, '02"
+- name: "Princeton VC GP '00"
   pic: default-headshot
   # position: Lead Designer
   social:
@@ -24,8 +24,10 @@ people:
       url: http://www.twitter.com/foobar
     - title: linkedin
       url: http://www.linkedin/foobar
+    - title: angellist
+      url: http://www.angel.co/foobar
 
-- name: "Prin Ceton, '02"
+- name: "Princeton Founder '02"
   pic: default-headshot
   # position: Lead Marketer
   social:
@@ -34,7 +36,7 @@ people:
     - title: linkedin
       url: http://www.linkedin/foobar
 
-- name: "Prin Ceton, '02"
+- name: "Princeton CEO '95"
   pic: default-headshot
   # position: Lead Developer
   social:
@@ -47,6 +49,12 @@ social:
     url: http://twitter.com/princetonindex
   - title: github
     url: http://github.com/princetonindex
+  - title: linkedin
+    url: https://www.linkedin.com/grp/home?gid=6992726
+
+contact:
+  - icon: envelope
+    url: mailto:princetonindex@gmail.com
 
 # Postal address (add as many lines as necessary)
 address:

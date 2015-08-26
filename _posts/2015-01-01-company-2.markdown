@@ -1,6 +1,7 @@
 ---
-title: Prin Ceton, '02
+title: Princeton CEO '87
 layout: default
+company-name: Princeton Co.
 company-url: http://www.foroenergy.com
 founder-url: https://www.linkedin.com/in/joelmoxley
 thumbnail: default-logo.jpg

@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
 }
 
@@ -16,6 +16,10 @@ body {
 
 .text-primary {
     color: #{{ site.color.primary }};
+}
+
+.italic-font {
+    font-family: "MonticelloLT-Italic","Helvetica Neue",Helvetica,Arial,cursive;
 }
 
 p {
@@ -123,12 +127,11 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 15px 25px;
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
-    text-transform: uppercase;
     font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 1.3em;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.color.primary }};
@@ -225,6 +228,7 @@ fieldset[disabled] .btn-xl.active {
     outline: 0;
     color: #{{ site.color.primary }};
 }
+.navbar-nav a { font-size: 1.5em; }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
@@ -264,6 +268,13 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s;
     }
 
+    .navbar-default.navbar-shrink .navbar-nav a {
+        font-size: 1.3em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
     }
@@ -283,6 +294,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -302,16 +314,12 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "MonticelloLT-Italic","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 10px;
-    /*text-transform: uppercase;*/
-    font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
@@ -325,16 +333,12 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "MonticelloLT-Italic","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 20px;
-        /*text-transform: uppercase;*/
-        font-family: 'MonticelloLT-Roman',"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 45px;
         font-weight: 700;
         line-height: 45px;
@@ -541,14 +545,9 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image h1 {
-    margin-top: 50%;
+    margin-top: 25%;
     font-size: 4em;
-    line-height: 14px;
-}
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
+    /*line-height: 10px;*/
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -588,6 +587,8 @@ section h3.section-subheading {
 .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
+
+.timeline .timeline-body h4 { line-height: 1.3em; }
 
 @media(min-width:768px) {
     .timeline:before {
@@ -756,6 +757,10 @@ footer span.copyright {
     text-transform: none;
     font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+}
+
+footer span.credits, footer span.credits a {
+    color: #c0c0c0;
 }
 
 footer ul.quicklinks {
