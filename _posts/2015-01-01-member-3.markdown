@@ -1,0 +1,12 @@
+---
+name: "Princeton Founder '02"
+pic: default-headshot
+social:
+    - title: twitter
+      url: http://www.twitter.com/foobar
+    - title: linkedin
+      url: http://www.linkedin/foobar
+
+category: Members
+
+---

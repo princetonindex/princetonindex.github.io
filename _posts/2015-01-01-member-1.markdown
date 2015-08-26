@@ -1,0 +1,14 @@
+---
+name: "Princeton VC GP '00"
+pic: default-headshot
+social:
+    - title: twitter
+      url: http://www.twitter.com/foobar
+    - title: linkedin
+      url: http://www.linkedin/foobar
+    - title: angellist
+      url: http://www.angel.co/foobar
+
+category: Members
+
+---

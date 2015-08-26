@@ -1,0 +1,10 @@
+---
+name: "Princeton CEO '95"
+pic: default-headshot
+social:
+    - title: linkedin
+      url: http://www.linkedin/foobar
+
+category: Members
+
+---

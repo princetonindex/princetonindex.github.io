@@ -14,35 +14,6 @@ color:
   secondary: fec503
   secondary-dark: 333
 
-# Team names, titles and social links
-people:
-- name: "Princeton VC GP '00"
-  pic: default-headshot
-  # position: Lead Designer
-  social:
-    - title: twitter
-      url: http://www.twitter.com/foobar
-    - title: linkedin
-      url: http://www.linkedin/foobar
-    - title: angellist
-      url: http://www.angel.co/foobar
-
-- name: "Princeton Founder '02"
-  pic: default-headshot
-  # position: Lead Marketer
-  social:
-    - title: twitter
-      url: http://www.twitter.com/foobar
-    - title: linkedin
-      url: http://www.linkedin/foobar
-
-- name: "Princeton CEO '95"
-  pic: default-headshot
-  # position: Lead Developer
-  social:
-    - title: linkedin
-      url: http://www.linkedin/foobar
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
