@@ -2,8 +2,8 @@
 title: Princeton CEO '87
 layout: default
 company-name: Princeton Co.
-company-url: http://www.foroenergy.com
-founder-url: https://www.linkedin.com/in/joelmoxley
+company-url: http://www.foobar.com
+founder-url: https://www.linkedin.com/in/foobar
 thumbnail: default-logo.jpg
 alt: image-alt
 category: Portfolio
